@@ -1,0 +1,10 @@
+{
+  "loginPage": {
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login"
+  },
+  "dashboardSearchPage": {
+    "optionName": "Search"
+  }
+}
