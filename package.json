@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:smoke": "cucumber-js features --tags \"@smoke\"",
+    "test:smoke": "rimraf allure-results && cucumber-js features --tags \"@smoke\"",
     "allure:serve": "allure serve allure-results"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "allure-commandline": "^2.37.0",
     "allure-cucumberjs": "^3.5.0",
     "cucumber-html-reporter": "^7.2.0",
+    "rimraf": "^6.1.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
